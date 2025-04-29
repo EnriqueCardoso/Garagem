@@ -1,6 +1,6 @@
 from django.db import models
 
-class Acessorios(models.Model):
+class Cor(models.Model):
     nome = models.TextField()
 
     def __str__(self):
